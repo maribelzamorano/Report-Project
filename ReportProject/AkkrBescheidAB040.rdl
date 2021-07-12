@@ -1,0 +1,1708 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSources>
+    <DataSource Name="TIS02O_THILLM_SYST1">
+      <rd:DataSourceID>a81a252d-9c37-4f48-85b1-bfe7a85b91dd</rd:DataSourceID>
+      <DataSourceReference>TIS02O_THILLM_SYST</DataSourceReference>
+    </DataSource>
+  </DataSources>
+  <InteractiveHeight>11in</InteractiveHeight>
+  <ReportParameters>
+    <ReportParameter Name="logoId">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>logoId</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="paragraph1">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>paragraph1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="paragraph2">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>paragraph2</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="paragraph3">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>paragraph3</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="paragraph4">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>paragraph4</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="paragraph5">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>paragraph5</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="paragraph6">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>paragraph6</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="paragraph7">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>paragraph7</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="paragraph8">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>paragraph8</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="paragraph9">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>paragraph9</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="paragraph10">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>paragraph10</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="paragraph11">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>paragraph11</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="paragraph12">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>paragraph12</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="paragraph13">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>paragraph13</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="paragraph14">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>paragraph14</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="paragraph15">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>paragraph15</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="paragraph16">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>paragraph16</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="paragraph17">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>paragraph17</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="paragraph18">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>paragraph18</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="paragraph19">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>paragraph19</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="paragraph20">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>paragraph20</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="akkrediteurEmail">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>akkrediteurEmail</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="akkrediteurFax">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>akkrediteurFax</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="akkrediteurNachname">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>akkrediteurNachname</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="akkrediteurTelefon">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>akkrediteurTelefon</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="akkrediteurVorname">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>akkrediteurVorname</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="akkreditierungDatum">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>akkreditierungDatum</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="akkreditierungsbescheidartCode">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>akkreditierungsbescheidartCode</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="akkreditierungsstelleEmail">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>akkreditierungsstelleEmail</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="akkreditierungsstelleFax">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>akkreditierungsstelleFax</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="akkreditierungsstelleHausnummer">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>akkreditierungsstelleHausnummer</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="akkreditierungsstelleHausnummernzusatz">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>akkreditierungsstelleHausnummernzusatz</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="akkreditierungsstelleOrt">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>akkreditierungsstelleOrt</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="akkreditierungsstellePostleitzahl">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>akkreditierungsstellePostleitzahl</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="akkreditierungsstelleStrasse">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>akkreditierungsstelleStrasse</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="akkreditierungsstelleTelefon">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>akkreditierungsstelleTelefon</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="aktenzeichen">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>aktenzeichen</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="anbieterHausnummer">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>anbieterHausnummer</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="anbieterHausnummernzusatz">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>anbieterHausnummernzusatz</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="anbieterOrt">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>anbieterOrt</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="anbieterPostleitzahl">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>anbieterPostleitzahl</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="anbieterStrasse">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>anbieterStrasse</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="anbieternameVoll">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>anbieternameVoll</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="anbieternummer">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>anbieternummer</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="angebotNummer">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>angebotNummer</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="angebotNummerAnbieter">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>angebotNummerAnbieter</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="angebotThema">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>angebotThema</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="antragAkkreditierungDatum">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>antragAkkreditierungDatum</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="antragReakkreditierungDatum">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>antragReakkreditierungDatum</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="brieffensterAnschrift">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>brieffensterAnschrift</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="briefkopf1">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>briefkopf1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="briefkopf2">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>briefkopf2</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="briefkopf3">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>briefkopf3</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="logoUrl">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>logoUrl</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="reakkreditierungDatum">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>reakkreditierungDatum</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="akkreditierungsstelleUrl">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>akkreditierungsstelleUrl</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="angebotDauer">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>angebotDauer</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="angebotLeistungspunkte">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>angebotLeistungspunkte</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="zeitpunkt">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>zeitpunkt</Prompt>
+    </ReportParameter>
+  </ReportParameters>
+  <rd:DrawGrid>true</rd:DrawGrid>
+  <InteractiveWidth>8.5in</InteractiveWidth>
+  <rd:GridSpacing>0.04in</rd:GridSpacing>
+  <rd:SnapToGrid>true</rd:SnapToGrid>
+  <RightMargin>0.7in</RightMargin>
+  <LeftMargin>0.07in</LeftMargin>
+  <PageHeader>
+    <ReportItems>
+      <Textbox Name="textbox58">
+        <rd:DefaultName>textbox58</rd:DefaultName>
+        <Width>1.05in</Width>
+        <Style>
+          <FontWeight>700</FontWeight>
+          <TextAlign>Center</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Left>3.175in</Left>
+        <Height>0.2in</Height>
+        <Value>="- "&amp; Globals!PageNumber &amp;" -"</Value>
+      </Textbox>
+    </ReportItems>
+    <Height>0.34in</Height>
+    <PrintOnLastPage>true</PrintOnLastPage>
+  </PageHeader>
+  <BottomMargin>0.2in</BottomMargin>
+  <rd:ReportID>db3fc313-474e-4e7f-95d0-fd0580f23f97</rd:ReportID>
+  <EmbeddedImages>
+    <EmbeddedImage Name="thillm">
+      <MIMEType>image/jpeg</MIMEType>
+      <ImageData>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
+YLVBA/jPHUj/TwHZQgC7i2ZbilqIzumYKqLPrI3hH0EcFo+sbDDsDq+ylgMtAJULgQhkgct4dBHogGRMAmH2jCnUB8GbtoFgQYCGNgVQhff6q1ZCSONKRDN77QOIyDN9Id5USxoA/M0y0TV1Bd0bAQVw6wj6COC0fWLC3AXD7ThboAeBD6dQMXeDlPkGYjbnyDXmXcRuKGDswW0kPpxfEKUBl+4MBEG7JUHi8DunZek1MZfdbUIVgFfstCArtim5ttLCrJUIBMZXBgPDVrYu8Hsd3KFg5uWgFggKAe8RuHpG5Zi434EIngwuvLfjaBKgwwDEkoC+FZoQyAKF05oGN1mFHZcO8AwDCYAGZq1GBkH4mlrXddRlNRd6Eq4RiLpbNfXXxADAZsDzLT9Q12mn7G4Tx4RiRAZQZzDeAdbHeF05oGN1hp8wAs7iXKRE+gg2ouuZH4HO3zwJ1PMIR+EbrI2uzXaZcMlxnjwhAWGPy5fdXlN55D4r4T5/BOX2f6fx+8Cw4gAXdX3LQ7DExHWgbd4TqMCAipusi5brwkRoN8FfaI41A90GGpdtoG5Dq+rd+tFTt2gGv+IgGYdgMig16wFaKg4QF9lebNhI2Lx4gHwEABYQNFgSstARMaiA0VmMRMSAkI60DbvFvEQCAnmyiEwWQS6QEFAsl/MCpktLmznsIKi9GXxbQkvML0EMiN836wFnJxCXZntaYAAypOyvTzABFvcCBR4E0lpFgsCYKAW0uWFfsaOaaYkYBBeszRhO3mi1iCWiAVOMi7WgNJkAINU8dvhSiDssTLORppBnzdnQzHqB5GrTAuGgC4HF+wiCIJoaAl7hBbTrLBm6aa4BAqyPllrJHaFm6MGLEtLmzntBxSqFgl+5l5GgZ7q+8G71+pPmB/v13S5Z7wwUaCP8AqM9XT4LhcjUQABgYArUiMUyAEAhZVVcApcdCBVsHq5kXYlnvLGyr6A+4EVYq2sPnDCkZNsiMsrM+8bXAQl
+oG9WsD4gSwUBpAW1FxBgTMXLhSBrANNsIlks/T+XL7q8pvPIfFfCfP4By+z/T/AGlxtaQt0ZO4Fv0lyTVYFtgtsYCLIYdCWDwgELdGTuBb9JkpmdcN7ZhkZdAnS0XlhaJztjAO91iipYTEZMAiW/Wa0lseD6TDK07IB9YNGWNwGyS9jDVEyBoDlzJLwUMwIYmPDDRF7G5gKwDyA03PSahRaacG8aFRsiCOxgIshh0JYPCAULzkcASDJ9wxvd74Aq5alACZJeChmDiWQAJFy9IMjWjsNk3zYT+iJl4cIEOd6L47wKJyDSXICD2u0yOx3DHX1hE4ULZMSA3gOfoH+490WKEEcCAmCxpNIyLyzBF83MBGcRh3n6MuGwUATuAib4BF4NcRTSJAAL7iI9IBabUwruRFdc1/RNZQygTzsDKnBHfL0czOwnc19YkEFowEXL0e0tA6BSMiHfKgsYQhChWDxCJMrT5Q3D5tViHa7VCZJeChmPQ02goTgqXZcauyXkoU2f1EntRtSEGXdek0ybHILs2IgRLRAOTboNY9ECZvq2kwfnuEW3hH5PZgBa1NzeWTjuwAbjZEw5DGFBYAE2wn0R7m4V4IRCBBCJ6ONVqsrjUupkquF19ofiVlK0LdB7QFUDDgNrg9XA7l2CwQbH0g/dCviVa52YAhFZAPZIkvzNAotJr8h7M4G4M5v3zm/fEsQLH/AFjK4YuHxOb985v3xJ8I3n5jThZI+5zfvnN++D2QwNgP9VI0yBteX/sJrFiBgzVzKAePyBhXgCA/ykAEQwYB1YRb2/8Ad//aAAwDAQACAAMAAAAQ888888888888888888888888888888888888888sALKcrB84i+qc888888888888888888888888888888888888888888888888888888888888888888888t2499ABeGCWq88888888888888888888888888888888888888888888
+88888888888888888888888888rd6WpsDsyKWi42+y608888888888888888888888888888888888888888888888888888888888888888r0CbuUIuWCeC0ImQIc88888888888888888888888888888888888888888888888888888888888888889/i329hqGC2CU8KWq88888888888888888888888888888888888888888888888888888888888888888u4jVjoh6Wq+CA8qSq88888888888888888888888888888888888888888888888888888888888888888tj42wzwkEg0QEgcEs44owQ808o444o808088uBnBvB8888888888888888888888888888888888888888MoMMk8YYQEw0YUUQEMoU8okUoAE8Eo0IEo88/ATAjAz888888888888888888888888888888888888888888c8888888888888A88g888888c888888888888888//xAAoEQEAAgACCwACAwAAAAAAAAABABEhYTFBUWBxkaGxwdHxQIFQ4fD/2gAIAQMBAT8Q/h7gq0YT5h7nxD3MEE1rz/bMwVecyFDtOie25hZaMWFzxS4sgupgYqPbDrM/WoFFTontuZ0Uo2wDpfmUbYhyP7lW2oefEaygb5YxmEDPFlnWmm+O5nRTiAyzbVeteJRtCvL7FotGlcoJDdern7sXfcw2tRFVtmQodplKd2YvAPMz7WUGz4bmGJ4OeHmZ4oc4FYSxbGuRU4kt8eJmihDXAe25lpcGj7AOnMSf5HpHGmcZ2Zo9XAb4kAVhcj1+cBB2k+cQRoN2UY4T5xFMNBhRWqfOIKA2u5gCtTPmHuHo1e9GvZjPmHuLIaA1XqznzD3AUa3dP//EACMRAQEBAAEEAQQDAAAAAAAAAAEAERAhMWBhQSBA
+ULFRcYH/2gAIAQIBAT8Q/Du4XvL+nhBwE9TdjkmPBxJAdOJDklieOxExMeD9yGR9BDRaWEOdXLMiY4yyyzwLuQwktUepuoWdHsJiY+p8BGqDDJ6mPUz7Fklu69xMTHJMT4Cm/wC5YngYL9VPE3cRMTHJMT4CH0OsgmN6P3ABhfGdYBjAfH33Y3vZSLe9sV297dh4YmmXvIz/AJXtJYT3kGGeJ//EACsQAQABAwMDAwQCAwEAAAAAAAERACExEEFRYXHwgZGhIHCxwTDxQGDh0f/aAAgBAQABPxD/AFZJn8VgmG/86GfaIJxJ/AYBOH/j0Ugr/wA2nA0xueEvsZknDuEIhyN50dUwztqi3xIAF3+6gREET3bUcMDXAEGhzICegwfj6eD8Ekp3QDKb1NUliw6J+6kW2sIZ6hXheOihPOH0bM5k3y+xmR2yJP1v0xpCVHrIPmK3wXNxS+FpZ+fFwEtJLJLnqz9GABlLTdElIkVJVcumbmF4lfkRTwvHTwvD6NvE8vsZkcylCeAgos54BAKyVxq8lt+CgxHSYmj2kYAkbS9KzTGE3Y0uaAfcQ+X6eAMAjZOae1ZhcvaxGzTpjhNPtUHICC8Yy9L+q14XjpeXnD6JvE8vsbkFEYjup+C0AVI36F/VIwlWV0BYXQd5X8aFeiR7TQpEsrHc4PWrlXB/wfNYX4u//e+vBUKFxD7NQA7MpJ70olsDAm0leF46ee46IFZgnt08Ty0nrr1Tmn7C9CzcF07mTRJwLB80VYbAAuw59PsIkU0SDu8n8aIZuy+s1pYAH3IAPlaKbHKJAgA3WXtR6fsOeq7vV0Lo5USX8nzrwdx3Pe+hDgSydbUIzhZ/Dp5bjp4fjp43lSe2UQjK41cG5hs/NAjARO3704IkW6LBwudjvTxmlEq8rQhuJ/DyPFSGfNkCzei/XNOAxu7dAwHQpCQJIjCNMsDc3Uudcnp1+waSXkIzGQfkHSxCqG4FfJqdbKPfdJflkUP
+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</ImageData>
+    </EmbeddedImage>
+  </EmbeddedImages>
+  <PageWidth>21cm</PageWidth>
+  <DataSets>
+    <DataSet Name="TIS02O_THILLM_SYST">
+      <Fields>
+        <Field Name="ANLA_ID">
+          <DataField>ANLA_ID</DataField>
+          <rd:TypeName>System.Int64</rd:TypeName>
+        </Field>
+        <Field Name="ANLA_DATEI">
+          <DataField>ANLA_DATEI</DataField>
+          <rd:TypeName>System.Byte[]</rd:TypeName>
+        </Field>
+        <Field Name="ANLD_PTS">
+          <DataField>ANLD_PTS</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="ANLD_USER">
+          <DataField>ANLD_USER</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ANLD__PTS">
+          <DataField>ANLD_#PTS</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ANLD_UQID">
+          <DataField>ANLD_UQID</DataField>
+          <rd:TypeName>System.Guid</rd:TypeName>
+        </Field>
+        <Field Name="ANLD_KZ_REPLIKATION">
+          <DataField>ANLD_KZ_REPLIKATION</DataField>
+          <rd:TypeName>System.Byte</rd:TypeName>
+        </Field>
+        <Field Name="ANLD_KZ_FREIGABE">
+          <DataField>ANLD_KZ_FREIGABE</DataField>
+          <rd:TypeName>System.Byte</rd:TypeName>
+        </Field>
+        <Field Name="ANLD_KZ_GESPERRT">
+          <DataField>ANLD_KZ_GESPERRT</DataField>
+          <rd:TypeName>System.Byte</rd:TypeName>
+        </Field>
+        <Field Name="ANLA_ID_INT">
+          <DataField>ANLA_ID_INT</DataField>
+          <rd:TypeName>System.Int64</rd:TypeName>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>TIS02O_THILLM_SYST1</DataSourceName>
+        <CommandText>if(select count(*) from thillmuser.t_anlage_datei join thillmuser.t_anlage on t_anlage.ANLA_ID=t_anlage_datei.ANLA_ID where t_anlage_datei.ANLA_ID=@logoid and ANLA_DATEI IS NOT NULL and ANLA_NAME like '%.jpg' )&gt;0
+select top 1* from thillmuser.t_anlage_datei where t_anlage_datei.anla_id=@logoid
+else
+select 1</CommandText>
+        <QueryParameters>
+          <QueryParameter Name="@logoid">
+            <Value>=Parameters!logoId.Value</Value>
+          </QueryParameter>
+        </QueryParameters>
+        <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+      </Query>
+    </DataSet>
+    <DataSet Name="DataSet1">
+      <Fields>
+        <Field Name="n">
+          <DataField>n</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="paragraph">
+          <DataField>paragraph</DataField>
+          <rd:TypeName>System.Object</rd:TypeName>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>TIS02O_THILLM_SYST1</DataSourceName>
+        <CommandText>select 1 as n, @paragraph1 as paragraph 
+union select 2 as n,@paragraph2 as paragraph
+union select 3 as n,@paragraph3 as paragraph
+union select 4 as n,@paragraph4 as paragraph
+union select 5 as n, @paragraph5 as paragraph
+union select 6 as n,@paragraph6 as paragraph
+union select 7 as n,@paragraph7 as paragraph
+union select 8 as n,@paragraph8 as paragraph
+union select 9 as n, @paragraph9 as paragraph
+union select 10 as n,@paragraph10 as paragraph
+union select 11 as n,@paragraph11 as paragraph
+union select 12 as n,@paragraph12 as paragraph
+union select 13 as n, @paragraph13 as paragraph
+union select 14 as n,@paragraph14 as paragraph
+union select 15 as n,@paragraph15 as paragraph
+union select 16 as n,@paragraph16 as paragraph
+union select 17 as n, @paragraph17 as paragraph
+union select 18 as n,@paragraph18 as paragraph
+union select 19 as n,@paragraph19 as paragraph
+union select 20 as n, @paragraph20 as paragraph
+order by n</CommandText>
+        <QueryParameters>
+          <QueryParameter Name="@paragraph1">
+            <Value>=Parameters!paragraph1.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@paragraph2">
+            <Value>=Parameters!paragraph2.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@paragraph3">
+            <Value>=Parameters!paragraph3.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@paragraph4">
+            <Value>=Parameters!paragraph4.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@paragraph5">
+            <Value>=Parameters!paragraph5.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@paragraph6">
+            <Value>=Parameters!paragraph6.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@paragraph7">
+            <Value>=Parameters!paragraph7.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@paragraph8">
+            <Value>=Parameters!paragraph8.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@paragraph9">
+            <Value>=Parameters!paragraph9.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@paragraph10">
+            <Value>=Parameters!paragraph10.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@paragraph11">
+            <Value>=Parameters!paragraph11.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@paragraph12">
+            <Value>=Parameters!paragraph12.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@paragraph13">
+            <Value>=Parameters!paragraph13.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@paragraph14">
+            <Value>=Parameters!paragraph14.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@paragraph15">
+            <Value>=Parameters!paragraph15.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@paragraph16">
+            <Value>=Parameters!paragraph16.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@paragraph17">
+            <Value>=Parameters!paragraph17.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@paragraph18">
+            <Value>=Parameters!paragraph18.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@paragraph19">
+            <Value>=Parameters!paragraph19.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@paragraph20">
+            <Value>=Parameters!paragraph20.Value</Value>
+          </QueryParameter>
+        </QueryParameters>
+        <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+      </Query>
+    </DataSet>
+    <DataSet Name="DataSet2">
+      <Fields>
+        <Field Name="ID">
+          <DataField />
+          <rd:TypeName>System.Object</rd:TypeName>
+        </Field>
+        <Field Name="ID_1">
+          <DataField />
+          <rd:TypeName>System.Object</rd:TypeName>
+        </Field>
+        <Field Name="ID_2">
+          <DataField />
+          <rd:TypeName>System.Object</rd:TypeName>
+        </Field>
+        <Field Name="ID_3">
+          <DataField />
+          <rd:TypeName>System.Object</rd:TypeName>
+        </Field>
+        <Field Name="ID_4">
+          <DataField />
+          <rd:TypeName>System.Object</rd:TypeName>
+        </Field>
+        <Field Name="ID_5">
+          <DataField />
+          <rd:TypeName>System.Object</rd:TypeName>
+        </Field>
+        <Field Name="ID_6">
+          <DataField />
+          <rd:TypeName>System.Object</rd:TypeName>
+        </Field>
+        <Field Name="ID_7">
+          <DataField />
+          <rd:TypeName>System.Object</rd:TypeName>
+        </Field>
+        <Field Name="ID_8">
+          <DataField />
+          <rd:TypeName>System.Object</rd:TypeName>
+        </Field>
+        <Field Name="ID_9">
+          <DataField />
+          <rd:TypeName>System.Object</rd:TypeName>
+        </Field>
+        <Field Name="ID_10">
+          <DataField />
+          <rd:TypeName>System.Object</rd:TypeName>
+        </Field>
+        <Field Name="ID_11">
+          <DataField />
+          <rd:TypeName>System.Object</rd:TypeName>
+        </Field>
+        <Field Name="ID_12">
+          <DataField />
+          <rd:TypeName>System.Object</rd:TypeName>
+        </Field>
+        <Field Name="ID_13">
+          <DataField />
+          <rd:TypeName>System.Object</rd:TypeName>
+        </Field>
+        <Field Name="ID_14">
+          <DataField />
+          <rd:TypeName>System.Object</rd:TypeName>
+        </Field>
+        <Field Name="ID_15">
+          <DataField />
+          <rd:TypeName>System.Object</rd:TypeName>
+        </Field>
+        <Field Name="ID_16">
+          <DataField />
+          <rd:TypeName>System.Object</rd:TypeName>
+        </Field>
+        <Field Name="ID_17">
+          <DataField />
+          <rd:TypeName>System.Object</rd:TypeName>
+        </Field>
+        <Field Name="ID_18">
+          <DataField />
+          <rd:TypeName>System.Object</rd:TypeName>
+        </Field>
+        <Field Name="ID_19">
+          <DataField />
+          <rd:TypeName>System.Object</rd:TypeName>
+        </Field>
+        <Field Name="ID_20">
+          <DataField />
+          <rd:TypeName>System.Object</rd:TypeName>
+        </Field>
+        <Field Name="ID_21">
+          <DataField />
+          <rd:TypeName>System.Object</rd:TypeName>
+        </Field>
+        <Field Name="ID_22">
+          <DataField />
+          <rd:TypeName>System.Object</rd:TypeName>
+        </Field>
+        <Field Name="ID_23">
+          <DataField />
+          <rd:TypeName>System.Object</rd:TypeName>
+        </Field>
+        <Field Name="ID_24">
+          <DataField />
+          <rd:TypeName>System.Object</rd:TypeName>
+        </Field>
+        <Field Name="ID_25">
+          <DataField />
+          <rd:TypeName>System.Object</rd:TypeName>
+        </Field>
+        <Field Name="ID_26">
+          <DataField />
+          <rd:TypeName>System.Object</rd:TypeName>
+        </Field>
+        <Field Name="ID_27">
+          <DataField />
+          <rd:TypeName>System.Object</rd:TypeName>
+        </Field>
+        <Field Name="ID_28">
+          <DataField />
+          <rd:TypeName>System.Object</rd:TypeName>
+        </Field>
+        <Field Name="ID_29">
+          <DataField />
+          <rd:TypeName>System.Object</rd:TypeName>
+        </Field>
+        <Field Name="ID_30">
+          <DataField />
+          <rd:TypeName>System.Object</rd:TypeName>
+        </Field>
+        <Field Name="ID_31">
+          <DataField />
+          <rd:TypeName>System.Object</rd:TypeName>
+        </Field>
+        <Field Name="ID_32">
+          <DataField />
+          <rd:TypeName>System.Object</rd:TypeName>
+        </Field>
+        <Field Name="ID_33">
+          <DataField />
+          <rd:TypeName>System.Object</rd:TypeName>
+        </Field>
+        <Field Name="ID_34">
+          <DataField />
+          <rd:TypeName>System.Object</rd:TypeName>
+        </Field>
+        <Field Name="ID_35">
+          <DataField />
+          <rd:TypeName>System.Object</rd:TypeName>
+        </Field>
+        <Field Name="ID_36">
+          <DataField />
+          <rd:TypeName>System.Object</rd:TypeName>
+        </Field>
+        <Field Name="ID_37">
+          <DataField />
+          <rd:TypeName>System.Object</rd:TypeName>
+        </Field>
+        <Field Name="ID_38">
+          <DataField />
+          <rd:TypeName>System.Object</rd:TypeName>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>TIS02O_THILLM_SYST1</DataSourceName>
+        <CommandText>select
+
+@akkrediteurEmail,
+
+@akkrediteurFax,
+
+@akkrediteurNachname,
+
+@akkrediteurTelefon,
+
+@akkrediteurVorname,
+
+@akkreditierungDatum,
+
+@akkreditierungsbescheidartCode,
+
+@akkreditierungsstelleEmail,
+
+@akkreditierungsstelleFax,
+
+@akkreditierungsstelleHausnummer,
+
+@akkreditierungsstelleHausnummernzusatz,
+
+@akkreditierungsstelleOrt,
+
+@akkreditierungsstellePostleitzahl,
+
+@akkreditierungsstelleStrasse,
+
+@akkreditierungsstelleTelefon,
+
+@akkreditierungsstelleUrl,
+
+@aktenzeichen,
+
+@anbieterHausnummer,
+
+@anbieterHausnummernzusatz,
+
+@anbieterOrt,
+
+@anbieterPostleitzahl,
+
+@anbieterStrasse,
+
+@anbieternameVoll,
+
+@anbieternummer,
+
+@angebotDauer,
+
+@angebotLeistungspunkte,
+
+@angebotNummer,
+
+@angebotNummerAnbieter,
+
+@angebotThema,
+
+@antragAkkreditierungDatum,
+
+@antragReakkreditierungDatum,
+
+@brieffensterAnschrift,
+
+@briefkopf1,
+
+@briefkopf2,
+
+@briefkopf3,
+
+@logoId,
+
+@logoUrl,
+
+@reakkreditierungDatum,
+
+@zeitpunkt</CommandText>
+        <QueryParameters>
+          <QueryParameter Name="@akkrediteurEmail">
+            <Value>=Parameters!akkrediteurEmail.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@akkrediteurFax">
+            <Value>=Parameters!akkrediteurFax.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@akkrediteurNachname">
+            <Value>=Parameters!akkrediteurNachname.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@akkrediteurTelefon">
+            <Value>=Parameters!akkrediteurTelefon.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@akkrediteurVorname">
+            <Value>=Parameters!akkrediteurVorname.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@akkreditierungDatum">
+            <Value>=Parameters!akkreditierungDatum.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@akkreditierungsbescheidartCode">
+            <Value>=Parameters!akkreditierungsbescheidartCode.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@akkreditierungsstelleEmail">
+            <Value>=Parameters!akkreditierungsstelleEmail.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@akkreditierungsstelleFax">
+            <Value>=Parameters!akkreditierungsstelleFax.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@akkreditierungsstelleHausnummer">
+            <Value>=Parameters!akkreditierungsstelleHausnummer.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@akkreditierungsstelleHausnummernzusatz">
+            <Value>=Parameters!akkreditierungsstelleHausnummernzusatz.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@akkreditierungsstelleOrt">
+            <Value>=Parameters!akkreditierungsstelleOrt.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@akkreditierungsstellePostleitzahl">
+            <Value>=Parameters!akkreditierungsstellePostleitzahl.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@akkreditierungsstelleStrasse">
+            <Value>=Parameters!akkreditierungsstelleStrasse.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@akkreditierungsstelleTelefon">
+            <Value>=Parameters!akkreditierungsstelleTelefon.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@akkreditierungsstelleUrl">
+            <Value>=Parameters!akkreditierungsstelleUrl.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@aktenzeichen">
+            <Value>=Parameters!aktenzeichen.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@anbieterHausnummer">
+            <Value>=Parameters!anbieterHausnummer.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@anbieterHausnummernzusatz">
+            <Value>=Parameters!anbieterHausnummernzusatz.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@anbieterOrt">
+            <Value>=Parameters!anbieterOrt.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@anbieterPostleitzahl">
+            <Value>=Parameters!anbieterPostleitzahl.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@anbieterStrasse">
+            <Value>=Parameters!anbieterStrasse.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@anbieternameVoll">
+            <Value>=Parameters!anbieternameVoll.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@anbieternummer">
+            <Value>=Parameters!anbieternummer.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@angebotDauer">
+            <Value>=Parameters!angebotDauer.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@angebotLeistungspunkte">
+            <Value>=Parameters!angebotLeistungspunkte.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@angebotNummer">
+            <Value>=Parameters!angebotNummer.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@angebotNummerAnbieter">
+            <Value>=Parameters!angebotNummerAnbieter.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@angebotThema">
+            <Value>=Parameters!angebotThema.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@antragAkkreditierungDatum">
+            <Value>=Parameters!antragAkkreditierungDatum.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@antragReakkreditierungDatum">
+            <Value>=Parameters!antragReakkreditierungDatum.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@brieffensterAnschrift">
+            <Value>=Parameters!brieffensterAnschrift.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@briefkopf1">
+            <Value>=Parameters!briefkopf1.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@briefkopf2">
+            <Value>=Parameters!briefkopf2.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@briefkopf3">
+            <Value>=Parameters!briefkopf3.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@logoId">
+            <Value>=Parameters!logoId.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@logoUrl">
+            <Value>=Parameters!logoUrl.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@reakkreditierungDatum">
+            <Value>=Parameters!reakkreditierungDatum.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@zeitpunkt">
+            <Value>=Parameters!zeitpunkt.Value</Value>
+          </QueryParameter>
+        </QueryParameters>
+        <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+      </Query>
+    </DataSet>
+  </DataSets>
+  <Code />
+  <Width>7.48001in</Width>
+  <Body>
+    <ReportItems>
+      <Table Name="table2">
+        <ZIndex>7</ZIndex>
+        <DataSetName>TIS02O_THILLM_SYST</DataSetName>
+        <Top>3.08in</Top>
+        <Width>6.65001in</Width>
+        <Header>
+          <TableRows>
+            <TableRow>
+              <TableCells>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox7">
+                      <Style>
+                        <FontSize>7.5pt</FontSize>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                      <ZIndex>11</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>Geschäftszeichen</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox10">
+                      <rd:DefaultName>textbox10</rd:DefaultName>
+                      <Style>
+                        <FontSize>7.5pt</FontSize>
+                        <TextAlign>Left</TextAlign>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                      <ZIndex>10</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>Ihr Zeichen, Ihr Schreiben vom</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox36">
+                      <Style>
+                        <FontSize>7.5pt</FontSize>
+                        <TextAlign>Left</TextAlign>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingTop>2pt</PaddingTop>
+                      </Style>
+                      <ZIndex>9</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>Telefon, Bearbeiter</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox15">
+                      <rd:DefaultName>textbox15</rd:DefaultName>
+                      <Style>
+                        <FontSize>7.5pt</FontSize>
+                        <TextAlign>Right</TextAlign>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                      <ZIndex>8</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>Datum</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+              <Height>0.165in</Height>
+            </TableRow>
+            <TableRow>
+              <TableCells>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox9">
+                      <rd:DefaultName>textbox9</rd:DefaultName>
+                      <Style>
+                        <FontWeight>700</FontWeight>
+                        <PaddingLeft>2pt</PaddingLeft>
+                      </Style>
+                      <ZIndex>7</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>AKK-5094</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox11">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                      </Style>
+                      <ZIndex>6</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox12">
+                      <Style>
+                        <FontStyle>Italic</FontStyle>
+                        <FontSize>8pt</FontSize>
+                        <TextAlign>Left</TextAlign>
+                        <PaddingLeft>2pt</PaddingLeft>
+                      </Style>
+                      <ZIndex>5</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Parameters!akkrediteurTelefon.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox13">
+                      <Style>
+                        <FontStyle>Italic</FontStyle>
+                        <FontSize>8pt</FontSize>
+                        <Format>dd.MM.yyyy</Format>
+                        <TextAlign>Right</TextAlign>
+                        <PaddingLeft>2pt</PaddingLeft>
+                      </Style>
+                      <ZIndex>4</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Today</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+              <Height>0.12in</Height>
+            </TableRow>
+            <TableRow>
+              <TableCells>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox14">
+                      <Style>
+                        <FontWeight>700</FontWeight>
+                        <PaddingLeft>2pt</PaddingLeft>
+                      </Style>
+                      <ZIndex>3</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox16">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                      </Style>
+                      <ZIndex>2</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox17">
+                      <Style>
+                        <FontStyle>Italic</FontStyle>
+                        <FontSize>8pt</FontSize>
+                        <TextAlign>Left</TextAlign>
+                        <PaddingLeft>2pt</PaddingLeft>
+                      </Style>
+                      <ZIndex>1</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Parameters!akkrediteurVorname.Value &amp;" "&amp; Parameters!akkrediteurNachname.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox29">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+              <Height>0.12in</Height>
+            </TableRow>
+          </TableRows>
+        </Header>
+        <TableColumns>
+          <TableColumn>
+            <Width>1.51883in</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>2.05247in</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>2.13457in</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>0.94414in</Width>
+          </TableColumn>
+        </TableColumns>
+        <Height>0.405in</Height>
+        <Left>0.82in</Left>
+      </Table>
+      <Textbox Name="textbox8">
+        <rd:DefaultName>textbox8</rd:DefaultName>
+        <Top>1.3in</Top>
+        <Width>3.75in</Width>
+        <Style>
+          <FontSize>7.5pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>6</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>0.82in</Left>
+        <Height>0.2in</Height>
+        <Value>=Parameters!brieffensterAnschrift.Value</Value>
+      </Textbox>
+      <Table Name="table1">
+        <ZIndex>5</ZIndex>
+        <DataSetName>TIS02O_THILLM_SYST</DataSetName>
+        <Top>1.58in</Top>
+        <Width>6.48in</Width>
+        <Header>
+          <TableRows>
+            <TableRow>
+              <TableCells>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox31">
+                      <Style>
+                        <FontSize>11pt</FontSize>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                      <ZIndex>2</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Parameters!anbieternameVoll.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+              <Height>0.34117in</Height>
+            </TableRow>
+            <TableRow>
+              <TableCells>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox32">
+                      <Style>
+                        <FontSize>11pt</FontSize>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                      <ZIndex>1</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Parameters!anbieterStrasse.Value &amp;" "&amp; Parameters!anbieterHausnummer.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+              <Height>0.18954in</Height>
+            </TableRow>
+            <TableRow>
+              <TableCells>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox35">
+                      <Style>
+                        <FontSize>11pt</FontSize>
+                        <FontWeight>700</FontWeight>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Parameters!anbieterPostleitzahl.Value &amp;" "&amp;Parameters!anbieterOrt.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+              <Height>0.19404in</Height>
+            </TableRow>
+          </TableRows>
+        </Header>
+        <TableColumns>
+          <TableColumn>
+            <Width>6.48in</Width>
+          </TableColumn>
+        </TableColumns>
+        <Height>0.72475in</Height>
+        <Left>0.82in</Left>
+      </Table>
+      <Rectangle Name="rectangle1">
+        <ZIndex>4</ZIndex>
+        <ReportItems>
+          <Line Name="line1">
+            <Top>1.12cm</Top>
+            <Width>-0.71852cm</Width>
+            <Style>
+              <BorderStyle>
+                <Default>Solid</Default>
+              </BorderStyle>
+              <BorderWidth>
+                <Default>0.3pt</Default>
+              </BorderWidth>
+            </Style>
+            <ZIndex>1</ZIndex>
+            <Left>0.71852cm</Left>
+            <Height>0cm</Height>
+          </Line>
+          <Line Name="line2">
+            <Top>6.28cm</Top>
+            <Width>-0.71852cm</Width>
+            <Style>
+              <BorderStyle>
+                <Default>Solid</Default>
+              </BorderStyle>
+              <BorderWidth>
+                <Default>0.3pt</Default>
+              </BorderWidth>
+            </Style>
+            <Left>0.71852cm</Left>
+            <Height>0cm</Height>
+          </Line>
+        </ReportItems>
+        <Top>7.11111cm</Top>
+        <Width>1.22857cm</Width>
+        <Height>7.61905cm</Height>
+      </Rectangle>
+      <List Name="list1">
+        <ZIndex>3</ZIndex>
+        <Left>2.4381cm</Left>
+        <DataSetName>TIS02O_THILLM_SYST</DataSetName>
+        <ReportItems>
+          <Image Name="image1">
+            <Sizing>FitProportional</Sizing>
+            <Visibility>
+              <Hidden>=iif(isnothing(Parameters!logoId.Value),true,false)</Hidden>
+            </Visibility>
+            <MIMEType>image/bmp</MIMEType>
+            <Source>Database</Source>
+            <Style />
+            <ZIndex>1</ZIndex>
+            <Left>11.78413cm</Left>
+            <Height>1.72698cm</Height>
+            <Value>=iif(Fields!ANLA_ID.Value=Parameters!logoId.Value,Fields!ANLA_DATEI.Value,NOTHING)</Value>
+          </Image>
+          <Image Name="image2">
+            <Sizing>Fit</Sizing>
+            <Visibility>
+              <Hidden>=iif(Parameters!logoId.Value&lt;&gt;Fields!ANLA_ID.Value,false,true)</Hidden>
+            </Visibility>
+            <Source>Embedded</Source>
+            <Style />
+            <Height>0.68in</Height>
+            <Value>thillm</Value>
+          </Image>
+        </ReportItems>
+        <Width>6.48001in</Width>
+        <Height>1.22125in</Height>
+      </List>
+      <Table Name="table5">
+        <ZIndex>2</ZIndex>
+        <DataSetName>DataSet1</DataSetName>
+        <Top>6.36in</Top>
+        <Width>6.61in</Width>
+        <Header>
+          <TableRows>
+            <TableRow>
+              <TableCells>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox4">
+                      <rd:DefaultName>textbox4</rd:DefaultName>
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                      </Style>
+                      <ZIndex>1</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>=VbCrLf &amp;"Mit freundlichen Grüßen" &amp; VbCrLf &amp; "Im Auftrag" &amp; VbCrlf</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+              <Height>0.16in</Height>
+            </TableRow>
+            <TableRow>
+              <TableCells>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox22">
+                      <rd:DefaultName>textbox22</rd:DefaultName>
+                      <Style>
+                        <FontStyle>Italic</FontStyle>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value>=VbCrLf &amp;Parameters!akkrediteurVorname.Value &amp;" "&amp; Parameters!akkrediteurNachname.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+              <Height>0.16in</Height>
+            </TableRow>
+          </TableRows>
+        </Header>
+        <TableColumns>
+          <TableColumn>
+            <Width>6.61in</Width>
+          </TableColumn>
+        </TableColumns>
+        <Height>0.32in</Height>
+        <Left>0.82in</Left>
+      </Table>
+      <Table Name="table4">
+        <ZIndex>1</ZIndex>
+        <DataSetName>DataSet1</DataSetName>
+        <Top>5.88in</Top>
+        <Width>6.61in</Width>
+        <Header>
+          <TableRows>
+            <TableRow>
+              <TableCells>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox26">
+                      <rd:DefaultName>textbox26</rd:DefaultName>
+                      <Style>
+                        <FontSize>11pt</FontSize>
+                        <FontWeight>700</FontWeight>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>1pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                      <ZIndex>1</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>="Rechtsbehelfsbelehrung:"</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+              <Height>0.24in</Height>
+            </TableRow>
+            <TableRow>
+              <TableCells>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox28">
+                      <rd:DefaultName>textbox28</rd:DefaultName>
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value>="Gegen diesen Bescheid kann innerhalb eines Monats nach seiner Bekanntgabe schriftlich oder zur Niederschrift bei der Akkreditierungsstelle des Thüringer Instituts für Lehrerfortbildung, Lehrplanentwicklung und Medien, Heinrich-Heine-Allee 2-4, 99438 Bad Berka, Widerspruch erhoben werden." &amp; VbCrLf &amp; VbCrLf
+</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+              <Height>0.16in</Height>
+            </TableRow>
+          </TableRows>
+        </Header>
+        <TableColumns>
+          <TableColumn>
+            <Width>6.61in</Width>
+          </TableColumn>
+        </TableColumns>
+        <Height>0.4in</Height>
+        <Left>0.82in</Left>
+      </Table>
+      <Table Name="table3">
+        <DataSetName>DataSet1</DataSetName>
+        <Top>3.705in</Top>
+        <Width>6.62in</Width>
+        <Details>
+          <TableRows>
+            <TableRow>
+              <Visibility>
+                <Hidden>=iif(isnothing(Fields!paragraph.Value),true,false)</Hidden>
+              </Visibility>
+              <TableCells>
+                <TableCell>
+                  <ColSpan>3</ColSpan>
+                  <ReportItems>
+                    <Textbox Name="textbox20">
+                      <rd:DefaultName>textbox20</rd:DefaultName>
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingBottom>11pt</PaddingBottom>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!paragraph.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+              <Height>0.16in</Height>
+            </TableRow>
+          </TableRows>
+        </Details>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+        </Style>
+        <Header>
+          <TableRows>
+            <TableRow>
+              <TableCells>
+                <TableCell>
+                  <ColSpan>3</ColSpan>
+                  <ReportItems>
+                    <Textbox Name="textbox18">
+                      <rd:DefaultName>textbox18</rd:DefaultName>
+                      <Style>
+                        <FontSize>10.5pt</FontSize>
+                        <FontWeight>700</FontWeight>
+                        <PaddingLeft>2pt</PaddingLeft>
+                      </Style>
+                      <ZIndex>8</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>Entzug der Akkreditierung als Anbieter von Fortbildungsangeboten
+gemäß § 34 Thüringer Lehrerbildungsgesetz (ThürLbG) vom 12. März 2008 i.V.m. § 9 Abs. 2 der</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+              <Height>0.165in</Height>
+            </TableRow>
+            <TableRow>
+              <TableCells>
+                <TableCell>
+                  <ColSpan>3</ColSpan>
+                  <ReportItems>
+                    <Textbox Name="textbox21">
+                      <rd:DefaultName>textbox21</rd:DefaultName>
+                      <Style>
+                        <FontSize>10.5pt</FontSize>
+                        <FontWeight>700</FontWeight>
+                        <PaddingLeft>2pt</PaddingLeft>
+                      </Style>
+                      <ZIndex>7</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>Verordnung zur Akkreditierung (VOAkk) vom ???</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+              <Height>0.16in</Height>
+            </TableRow>
+            <TableRow>
+              <TableCells>
+                <TableCell>
+                  <ColSpan>3</ColSpan>
+                  <ReportItems>
+                    <Textbox Name="textbox30">
+                      <rd:DefaultName>textbox30</rd:DefaultName>
+                      <Style>
+                        <FontSize>10.5pt</FontSize>
+                        <FontWeight>700</FontWeight>
+                        <PaddingLeft>2pt</PaddingLeft>
+                      </Style>
+                      <ZIndex>6</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>="Anbieternummer: " &amp;Parameters!anbieternummer.Value &amp; VbCrLf &amp; VbCrLf</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+              <Height>0.18486in</Height>
+            </TableRow>
+            <TableRow>
+              <TableCells>
+                <TableCell>
+                  <ColSpan>3</ColSpan>
+                  <ReportItems>
+                    <Textbox Name="textbox6">
+                      <rd:DefaultName>textbox6</rd:DefaultName>
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                      </Style>
+                      <ZIndex>5</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>=VbCrLf &amp;"Sehr geehrte Damen und Herren," &amp; VbCrLf &amp; VbCrLf &amp;"zu Ihrer Akkreditierung vom "&amp; Parameters!akkreditierungDatum.Value &amp;" als Anbieter von Fortbildungsangeboten für" &amp; VbCrLf &amp; "Thüringer Lehrkräfte ergeht folgender" &amp; VbCrLf</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+              <Height>0.28009in</Height>
+            </TableRow>
+            <TableRow>
+              <TableCells>
+                <TableCell>
+                  <ColSpan>3</ColSpan>
+                  <ReportItems>
+                    <Textbox Name="textbox1">
+                      <rd:DefaultName>textbox1</rd:DefaultName>
+                      <Style>
+                        <FontSize>11pt</FontSize>
+                        <FontWeight>700</FontWeight>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                      <ZIndex>4</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>="Bescheid:"</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+              <Height>0.2in</Height>
+            </TableRow>
+            <TableRow>
+              <TableCells>
+                <TableCell>
+                  <ColSpan>3</ColSpan>
+                  <ReportItems>
+                    <Textbox Name="textbox25">
+                      <rd:DefaultName>textbox25</rd:DefaultName>
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                      </Style>
+                      <ZIndex>3</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>="Die erteilte Akkreditierung wird entzogen." &amp; VbCrLf &amp; VbCrLf </Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+              <Height>0.22in</Height>
+            </TableRow>
+            <TableRow>
+              <TableCells>
+                <TableCell>
+                  <ColSpan>3</ColSpan>
+                  <ReportItems>
+                    <Textbox Name="textbox2">
+                      <rd:DefaultName>textbox2</rd:DefaultName>
+                      <Style>
+                        <FontSize>11pt</FontSize>
+                        <FontWeight>700</FontWeight>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                      <ZIndex>2</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>="Begründung:"</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+              <Height>0.24in</Height>
+            </TableRow>
+            <TableRow>
+              <TableCells>
+                <TableCell>
+                  <ColSpan>3</ColSpan>
+                  <ReportItems>
+                    <Textbox Name="textbox27">
+                      <rd:DefaultName>textbox27</rd:DefaultName>
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                      </Style>
+                      <ZIndex>1</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>="Nach § 9 Abs. 2 der Verordnung zur Akkreditierung kann die Akkreditierung jederzeit entzogen werden, wenn Tatsachen eintreten, die eine Entziehung rechtfertigen. Dies ist insbesondere der Fall, wenn"&amp; VbCrLf &amp;
+"1.     der Anbieter seine Tätigkeit auf Dauer einstellt," &amp; VbCrLf &amp;
+"2.     in einem Zeitrahmen von drei Jahren keine Fortbildungsveranstaltung angeboten wurde,"&amp; VbCrLf &amp;
+"3.     die vorläufige Akkreditierung nach § 12 VOAkk ausläuft, ohne dass ein erneuter Antrag gestellt"&amp; VbCrLf &amp;
+"        wird oder"&amp; VbCrLf &amp;
+"4.     der Anbieter von Fortbildungen seiner Verpflichtung nach § 34 Abs. 2 des Thüringer" &amp; VbCRlf &amp;
+"        Lehrerbildungsgesetzes i.V.m. § 5 der Verordnung zur Akkreditierung nicht nachkommt." &amp;VbCrLf &amp;VbCrLf</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+              <Height>0.55in</Height>
+            </TableRow>
+          </TableRows>
+        </Header>
+        <TableColumns>
+          <TableColumn>
+            <Width>2.22049in</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>2.22049in</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>2.17901in</Width>
+          </TableColumn>
+        </TableColumns>
+        <Height>2.15995in</Height>
+        <Left>0.82in</Left>
+      </Table>
+    </ReportItems>
+    <Height>6.72in</Height>
+  </Body>
+  <Language>en-US</Language>
+  <PageFooter>
+    <PrintOnFirstPage>true</PrintOnFirstPage>
+    <ReportItems>
+      <Textbox Name="textbox3">
+        <Style>
+          <FontSize>7pt</FontSize>
+          <TextAlign>Right</TextAlign>
+        </Style>
+        <ZIndex>2</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>7.32in</Left>
+        <Height>0.24in</Height>
+        <Value>=Globals!PageNumber</Value>
+      </Textbox>
+      <Textbox Name="textbox5">
+        <Top>0.16in</Top>
+        <Width>5.92in</Width>
+        <Style>
+          <FontSize>7pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>1</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>0.805in</Left>
+        <Height>0.17in</Height>
+        <Value>=Parameters!akkreditierungsstelleStrasse.Value &amp;" "&amp; Parameters!akkreditierungsstelleHausnummer.Value &amp;" "&amp; Parameters!akkreditierungsstelleHausnummernzusatz.Value &amp;" • "&amp; Parameters!akkreditierungsstellePostleitzahl.Value &amp;" "&amp; Parameters!akkreditierungsstelleOrt.Value &amp;" • Telefon: "&amp; Parameters!akkreditierungsstelleTelefon.Value &amp;" • Telefax: "&amp; Parameters!akkreditierungsstelleFax.Value &amp;" • "&amp; Parameters!akkreditierungsstelleEmail.Value &amp;" • "&amp; Parameters!akkreditierungsstelleUrl.Value</Value>
+      </Textbox>
+      <Textbox Name="textbox19">
+        <Top>0.015in</Top>
+        <Width>5.92in</Width>
+        <Style>
+          <FontSize>7pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Left>0.805in</Left>
+        <Height>0.145in</Height>
+        <Value>E-Mail-Adressen dienen grundsätzlich nur dem Empfang einfacher Mitteilungen ohne Signatur und/oder Verschlüsselung.</Value>
+      </Textbox>
+    </ReportItems>
+    <Height>0.355in</Height>
+    <PrintOnLastPage>true</PrintOnLastPage>
+  </PageFooter>
+  <TopMargin>0.2in</TopMargin>
+  <PageHeight>29.7cm</PageHeight>
+</Report>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>DataSource1</Name>
+  <DataSourceID>f02bbc2a-62fd-4fef-b263-d6e45927836d</DataSourceID>
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=datab;Initial Catalog=TIS02O_THILLM_SYST</ConnectString>
+  </ConnectionProperties>
+</RptDataSource>

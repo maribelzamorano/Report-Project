@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "AkkrBescheid", "ReportProject\AkkrBescheid.rptproj", "{9540EA86-96E2-49BE-9A06-4A9F9E931876}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Production|Default = Production|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9540EA86-96E2-49BE-9A06-4A9F9E931876}.Debug|Default.ActiveCfg = Debug
+		{9540EA86-96E2-49BE-9A06-4A9F9E931876}.Debug|Default.Build.0 = DebugLocal
+		{9540EA86-96E2-49BE-9A06-4A9F9E931876}.Debug|Default.Deploy.0 = DebugLocal
+		{9540EA86-96E2-49BE-9A06-4A9F9E931876}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{9540EA86-96E2-49BE-9A06-4A9F9E931876}.DebugLocal|Default.Build.0 = DebugLocal
+		{9540EA86-96E2-49BE-9A06-4A9F9E931876}.Production|Default.ActiveCfg = Production
+		{9540EA86-96E2-49BE-9A06-4A9F9E931876}.Production|Default.Build.0 = Production
+		{9540EA86-96E2-49BE-9A06-4A9F9E931876}.Production|Default.Deploy.0 = Production
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
